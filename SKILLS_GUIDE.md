@@ -1,69 +1,63 @@
 # Skills Reference Guide
 
-This is a complete guide to every skill ButtiBot has access to and how to use them.
+Complete reference for OpenClaw skills installed and available.
+
+---
 
 ## 🔐 Authentication Skills
 
 ### GitHub
-**What it does:** Manage your GitHub repositories, issues, PRs, commits, and create gists.
+**What it does:** Manage repositories, issues, PRs, commits, create gists.
 
 **Config:**
-- Username: `@richardlaurits`
-- PAT: `$GITHUB_TOKEN` (90-day, expires 2026-05-17)
+- OAuth via Personal Access Token
+- Revocable anytime
 
 **Common tasks:**
 ```
-"Create a new private repo called health-tracking"
-"Add this data to my health-tracking repo as a CSV"
+"Create a new private repo"
+"Push these files to GitHub"
 "Find all open issues in my repos"
-"Create a PR to update the README"
-"Push these job crawler results to GitHub"
+"Create a PR with these changes"
 ```
 
 **Use cases:**
-- Version control for personal data
-- Job search tracking
-- Health metrics logging
-- Investment research archive
+- Version control for code and data
+- Research archives
+- Documentation
+- Data backup with history
 
 ---
 
 ### Gmail
-**What it does:** Monitor inbox, read emails, extract key info.
+**What it does:** Monitor inbox, read emails, extract information.
 
 **Config:**
-- Read-only via OAuth
-- Active: Heartbeat monitor (every 30 min)
-- Filters: Pernilla, invoices, bank alerts, calendar, Gmail Important
+- OAuth token-based access
+- Read/write permissions
 
 **Common tasks:**
 ```
-"Check for important emails"
-"Get my latest invoice"
-"Find emails from Pernilla"
+"Check for new emails"
+"Find emails from a specific sender"
+"Extract email attachments"
 ```
-
-**Use cases:**
-- Inbox triage
-- Bill tracking
-- Important notifications
-- Calendar event reminders
 
 ---
 
 ### ClawHub
-**What it does:** Search, install, update, publish OpenClaw skills from the registry.
+**What it does:** Search, install, update, publish OpenClaw skills.
 
 **Config:**
-- API token: `$CLAWHUB_TOKEN`
-- Registry: https://clawhub.com
+- API token for registry access
+- Publish permissions for own skills
 
 **Common tasks:**
 ```
-"Search for a database skill"
-"Install the latest version of playwright-scraper"
-"Update all my skills"
-"Publish my custom health-tracking skill"
+"Search for a specific skill"
+"Install the latest version of a skill"
+"Update all installed skills"
+"Publish a custom skill"
 ```
 
 ---
@@ -71,55 +65,56 @@ This is a complete guide to every skill ButtiBot has access to and how to use th
 ## 🌐 Web & Data Skills
 
 ### Playwright Scraper Skill
-**What it does:** Browser automation with JavaScript rendering, anti-bot protection, form filling, screenshot capture.
+**What it does:** Browser automation with JavaScript rendering, form filling, screenshot capture.
 
 **Best for:**
-- Career sites with dynamic JavaScript
-- Pagination handling
-- Form submissions
-- Taking screenshots of job listings
+- Complex dynamic websites
+- JavaScript-heavy applications
+- Form submissions and interactions
+- Visual verification (screenshots)
 
 **Common tasks:**
 ```
-"Scrape Roche's careers page for all marketing jobs"
-"Extract job listings from LinkedIn (with filters)"
-"Capture a screenshot of the target job page"
+"Scrape this website for data"
+"Fill out this form and submit"
+"Take a screenshot of this page"
+"Extract data that loads dynamically"
 ```
 
 ---
 
 ### Web Scraper as a Service
-**What it does:** Convert any webpage into structured JSON, extract tables, lists, metadata.
+**What it does:** Convert webpages into structured data (JSON, tables, metadata).
 
 **Best for:**
 - Static website content
 - Quick data extraction
 - Table parsing
-- Price comparison
+- Structured data conversion
 
 **Common tasks:**
 ```
-"Extract all job titles from this webpage"
-"Convert this table into JSON"
-"Get the metadata (title, description, author) from this page"
+"Extract all data from this table"
+"Convert this webpage to JSON"
+"Get metadata from this page"
 ```
 
 ---
 
 ### Tavily Search
-**What it does:** Real-time web search optimized for research, with source attribution and recency filtering.
+**What it does:** Real-time web search with source attribution and recency filtering.
 
 **Best for:**
-- Latest news & trends
-- Company research
-- Salary/market data
-- Fantasy football breaking news
+- Latest news and trends
+- Research and fact-finding
+- Market data discovery
+- Breaking news
 
 **Common tasks:**
 ```
-"Find the latest AI breakthroughs from this week"
-"Search for salary data for Marketing Manager in Switzerland"
-"Find injury news for my fantasy football league"
+"Find recent news about this topic"
+"Search for information from the past week"
+"Find data across multiple sources"
 ```
 
 ---
@@ -127,61 +122,57 @@ This is a complete guide to every skill ButtiBot has access to and how to use th
 ## 🛠️ Development & Configuration Skills
 
 ### Coding Agent
-**What it does:** Autonomous code writing, debugging, testing, version control, commit messages.
+**What it does:** Write, debug, test code; generate scripts and reports.
 
 **Best for:**
-- Writing Python scripts
-- Debugging code
-- Generating reports
-- Data transformation
+- Python/JavaScript development
+- Data analysis and transformation
+- Script generation
+- Algorithm implementation
 
 **Common tasks:**
 ```
-"Write a Python script to parse job listing JSON"
-"Debug my job crawler script"
-"Generate a weekly health summary report"
+"Write a Python script to [do something]"
+"Debug this code"
+"Generate a report from this data"
+"Transform this data format"
 ```
 
 ---
 
 ### Skill Creator
-**What it does:** Design and package custom OpenClaw skills with metadata, dependencies, documentation.
+**What it does:** Design and package custom OpenClaw skills.
 
 **Best for:**
-- Building domain-specific tools
-- Packaging reusable automation
-
-**Common tasks:**
-```
-"Create a custom skill for tracking my TIR metrics"
-"Package my job crawler as a reusable skill"
-```
+- Building reusable automation tools
+- Creating domain-specific capabilities
+- Packaging workflows
 
 ---
 
 ### MCporter
-**What it does:** Connect and run MCP (Model Context Protocol) servers directly.
+**What it does:** Connect and run MCP (Model Context Protocol) servers.
 
 **Best for:**
 - Integrating external APIs
-- Custom tool bridges
-- Advanced automation
+- Custom tool creation
+- Advanced integrations
 
 ---
 
 ### Healthcheck
-**What it does:** Security audits of your Linux VM, firewall checks, update status, version verification.
+**What it does:** System security audits, dependency updates, version checks.
 
 **Best for:**
 - System maintenance
 - Security hardening
-- Dependency updates
+- Compliance checks
 
 **Common tasks:**
 ```
 "Run a security audit on my system"
-"Check if my OpenClaw is up to date"
-"List security vulnerabilities"
+"Check for available updates"
+"Verify system health"
 ```
 
 ---
@@ -189,79 +180,55 @@ This is a complete guide to every skill ButtiBot has access to and how to use th
 ## 📊 Analysis & Information Skills
 
 ### Weather
-**What it does:** Current weather and forecasts for your location.
+**What it does:** Current weather and forecasts.
 
 **Best for:**
-- Morning briefings
-- Planning outdoor activities
-- Deciding cycling commute viability
-
-**Common tasks:**
-```
-"What's the weather tomorrow in Prangins?"
-"Will it rain this week?"
-"Is it a good day to cycle to the office?"
-```
+- Planning
+- Decision-making based on conditions
+- Integration into daily briefings
 
 ---
 
 ### Obsidian
-**What it does:** Query your Obsidian vault, fuzzy search notes, traverse wikilinks, manage tags.
+**What it does:** Query personal knowledge base, search notes, manage tags.
 
 **Best for:**
-- Knowledge base integration
-- Personal research archive
-- Project notes
-
-**Requires:** Obsidian installed and configured
+- Knowledge management
+- Research archive integration
+- Information retrieval
 
 ---
 
 ### Token Memory Optimizer
-**What it does:** Prevent token context bloat, summarize old memories, reset & refresh.
+**What it does:** Manage context length, prevent token bloat, summarize history.
 
 **Best for:**
 - Long-running sessions
-- Token efficiency
-- Memory maintenance
+- Memory efficiency
+- Context management
 
 ---
 
-## 🎮 Entertainment & Specialized
+## Recommended Workflows
 
-### Not Yet Installed (But Available)
+### Data Collection Pipeline
+- Playwright Scraper → Extract data
+- Web Scraper → Parse structure
+- Coding Agent → Transform/analyze
+- GitHub → Store results
 
-**Spotify Player** — Control music playback
-**Discord** — Send messages to Discord servers
-**Slack** — Integration with Slack workspace
-**Notion** — Database and page management
-**Trello** — Task board automation
+### Research Workflow
+- Tavily Search → Find sources
+- Web Scraper → Extract content
+- Coding Agent → Summarize
+- GitHub → Archive results
 
----
-
-## Skill Recommendations
-
-### For Your Goals:
-
-**Job Hunting:**
-- Playwright Scraper (primary)
-- Web Scraper (secondary)
-- Tavily Search (salary research)
-- GitHub (track results)
-- Coding Agent (analyze data)
-
-**Health Tracking:**
-- GitHub (store daily data)
-- Coding Agent (analyze trends)
-- Healthcheck (system audits)
-- Token Optimizer (manage memory)
-
-**Fantasy Football:**
-- Tavily Search (injury/news)
-- Web Scraper (league standings)
-- Coding Agent (analysis)
-- GitHub (archive strategy)
+### Automation Workflow
+- Playwright Scraper → Collect data
+- Cron → Schedule execution
+- GitHub → Version control
+- Notifications → Alert on changes
 
 ---
 
-**Last Updated:** 2026-02-17 23:50 CET
+**Last Updated:** 2026-02-18 07:45 CET
