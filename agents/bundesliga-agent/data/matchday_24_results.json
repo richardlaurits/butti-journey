@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-03-01T00:00:00+01:00",
+  "matchday": 24,
+  "results": [
+    {"date": "2026-02-27", "home": "Augsburg", "score": "2-0", "away": "Cologne", "scorers": "Ribeiro 55', Claude-Maurice 90+5'"},
+    {"date": "2026-02-28", "home": "Dortmund", "score": "2-3", "away": "Bayern Munich", "scorers": "Schlotterbeck 26', Svensson 84' | Kane 54', 70' (pen), Kimmich 87'"},
+    {"date": "2026-02-28", "home": "Leverkusen", "score": "1-1", "away": "Mainz", "scorers": "Becker 67' | Quansah 88'"},
+    {"date": "2026-02-28", "home": "Werder Bremen", "score": "2-0", "away": "Heidenheim", "scorers": "Milošević 57', Behrens 90+6' (og)"},
+    {"date": "2026-02-28", "home": "Gladbach", "score": "1-0", "away": "Union Berlin", "scorers": "Diks 90+4' (pen)"},
+    {"date": "2026-02-28", "home": "Hoffenheim", "score": "0-1", "away": "St. Pauli", "scorers": "Pereira Lage 45+4'"},
+    {"date": "2026-03-01", "home": "Stuttgart", "score": "-", "away": "Wolfsburg", "status": "Scheduled"},
+    {"date": "2026-03-01", "home": "Frankfurt", "score": "-", "away": "Freiburg", "status": "Scheduled"},
+    {"date": "2026-03-01", "home": "Hamburg", "score": "-", "away": "RB Leipzig", "status": "Scheduled"}
+  ],
+  "key_results": {
+    "klassiker": "Bayern beat Dortmund 3-2 in thriller - Kane brace",
+    "surprise": "St. Pauli beat Hoffenheim 1-0 away",
+    "title_race": "Bayern extend lead to 8 points over Dortmund"
+  }
+}

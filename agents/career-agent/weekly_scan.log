@@ -1,0 +1,3 @@
+2026-02-27 09:00:01: Starting weekly job scan
+/home/richard-laurits/.openclaw/workspace/agents/career-agent/weekly_job_scan.sh: line 13: openclaw: command not found
+2026-02-27 09:00:01: Weekly scan completed

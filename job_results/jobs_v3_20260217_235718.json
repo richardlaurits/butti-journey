@@ -1,0 +1,24 @@
+{
+  "scan_date": "2026-02-17T23:53:05.797041",
+  "companies": {
+    "roche": {
+      "url": "https://careers.roche.com/global/en",
+      "jobs_found": 1,
+      "jobs": [
+        {
+          "title": "Unknown",
+          "location": "Not specified",
+          "link": "https://careers.roche.com/global/en",
+          "keyword": "Marketing",
+          "company": "roche"
+        }
+      ]
+    },
+    "novo_nordisk": {
+      "url": "https://careers.novonordisk.com/",
+      "jobs_found": 0,
+      "jobs": []
+    }
+  },
+  "total_jobs": 1
+}

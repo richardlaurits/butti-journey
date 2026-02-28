@@ -1,0 +1,9 @@
+2026-02-24 07:00:01: Starting morning brief generation
+/home/richard-laurits/.openclaw/workspace/morning_brief.sh: line 11: openclaw: command not found
+2026-02-24 07:00:01: Morning brief completed
+2026-02-24 07:10:54: Starting morning brief generation
+error: unknown command 'sessions_spawn'
+2026-02-24 07:10:57: Morning brief completed
+2026-02-24 07:33:30: Starting morning brief generation
+error: unknown command 'sessions_spawn'
+2026-02-24 07:33:31: Morning brief completed

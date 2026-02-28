@@ -1,0 +1,121 @@
+{
+  "exam_prep": {
+    "exam": "FIDE A1",
+    "goal_date": "2026-05-29",
+    "start_date": "2026-02-24",
+    "current_day": 5,
+    "days_remaining": 89,
+    "phase": 1,
+    "phase_name": "Foundation"
+  },
+  "competency_scores": {
+    "oral_comprehension": {
+      "current": 15,
+      "target": 60,
+      "progress_pct": 25,
+      "evidence": [
+        "Can understand basic greetings",
+        "Can recognize numbers 1-20"
+      ]
+    },
+    "oral_production": {
+      "current": 10,
+      "target": 60,
+      "progress_pct": 17,
+      "evidence": [
+        "Can say name and basic greetings",
+        "Can count to 20"
+      ]
+    },
+    "interaction": {
+      "current": 8,
+      "target": 60,
+      "progress_pct": 13,
+      "evidence": [
+        "Can respond to greetings",
+        "Can say please and thank you"
+      ]
+    }
+  },
+  "vocabulary": {
+    "learned": 6,
+    "target_phase_1": 200,
+    "target_total": 600,
+    "mastery_rate": 85,
+    "learned_words": [
+      "Au revoir",
+      "Salut",
+      "Bonjour",
+      "S'il vous pla\u00eet",
+      "Non",
+      "Oui"
+    ]
+  },
+  "grammar": {
+    "points_learned": [
+      "present_tense_\u00eatre",
+      "present_tense_avoir"
+    ],
+    "points_needed": [
+      "regular_er_verbs",
+      "gender_agreement",
+      "plurals",
+      "articles",
+      "question_formation",
+      "negation"
+    ]
+  },
+  "practice_log": [
+    {
+      "date": "2026-02-24",
+      "type": "vocabulary",
+      "duration_minutes": 15,
+      "score": 80
+    },
+    {
+      "date": "2026-02-25",
+      "type": "vocabulary",
+      "duration_minutes": 10,
+      "score": 75
+    },
+    {
+      "date": "2026-02-28",
+      "type": "daily_lesson",
+      "duration_minutes": 20,
+      "phase": "Foundation",
+      "words_learned": 5
+    },
+    {
+      "date": "2026-02-28",
+      "type": "daily_lesson",
+      "duration_minutes": 20,
+      "phase": "Foundation",
+      "words_learned": 5
+    }
+  ],
+  "streak": {
+    "current": 0,
+    "best": 2,
+    "target_daily": true
+  },
+  "exam_readiness": {
+    "overall": 12,
+    "estimated_pass_probability": "Not yet assessable",
+    "focus_areas": [
+      "Build vocabulary to 100 words",
+      "Master present tense of common verbs",
+      "Practice self-introduction"
+    ]
+  },
+  "next_milestone": {
+    "name": "Complete Phase 1 Foundation",
+    "date": "2026-03-24",
+    "days_away": 24,
+    "requirements": [
+      "Know 200 vocabulary words",
+      "Master \u00eatre, avoir, aller",
+      "Can introduce yourself fully",
+      "Can tell time and date"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "timestamp": "2026-02-23T20:29:33.273484",
+    "greeting": "Hej Jan! En ny dag b\u00f6rjar h\u00e4r. Allt \u00e4r fint. Hur \u00e4r det med dig?",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-02-23T20:32:59.530386",
+    "greeting": "Godmorgon Jan! Hoppas M\u00e5ndag \u00e4r fin f\u00f6r dig.",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-02-23T20:36:39.370716",
+    "greeting": "Godmorgon fr\u00e5n ButtiBot! Allt \u00e4r kallt och fungerar bra. Hur \u00e4r det med dig?",
+    "recipient": "richardlaurits@gmail.com",
+    "gif": "https://media.giphy.com/media/l0HlQaQ309bTrHpTi/giphy.gif",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-02-23T20:38:34.865647",
+    "greeting": "Godmorgon! Hoppas du har en bra dag f\u00f6re dig. Kyligt men fint i G\u00f6teborg (1\u00b0C).\n\nHur m\u00e5nga minuter p\u00e5 datorn idag? Gradvis fram\u00e5t \u00e4r allt!",
+    "recipient": "richardlaurits@gmail.com",
+    "gif": "https://media.giphy.com/media/l3q2K6YQSKcAo2vie/giphy.gif",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2026-02-23T20:41:31.466374",
+    "greeting": "Godmorgon Jan! En ny M\u00e5ndag b\u00f6rjar! Kyligt men fint i G\u00f6teborg (1\u00b0C).\n\nHur g\u00e5r det med den nya dator",
+    "recipient": "richardlaurits@gmail.com",
+    "emoji": "\ud83d\udc4d \ud83d\ude04 \ud83d\udc4d",
+    "status": "sent"
+  }
+]

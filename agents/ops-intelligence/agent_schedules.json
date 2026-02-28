@@ -1,0 +1,165 @@
+{
+  "career-agent": {
+    "active_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "active_hours": [
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "max_idle_hours": 24,
+    "auto_activate": true,
+    "command": "echo 'Career check: $(date)' >> {path}/activity.log"
+  },
+  "fpl-agent": {
+    "active_days": [
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday",
+      "saturday",
+      "sunday"
+    ],
+    "active_hours": [
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "max_idle_hours": 48,
+    "auto_activate": true,
+    "command": "echo 'FPL check: $(date)' >> {path}/activity.log"
+  },
+  "bundesliga-agent": {
+    "active_days": [
+      "friday",
+      "saturday",
+      "sunday"
+    ],
+    "active_hours": [
+      8,
+      9,
+      10,
+      17,
+      18
+    ],
+    "max_idle_hours": 48,
+    "auto_activate": true,
+    "command": "echo 'Bundesliga check: $(date)' >> {path}/activity.log",
+    "priority_boost": true
+  },
+  "health-agent": {
+    "active_days": [
+      "monday",
+      "wednesday",
+      "friday",
+      "sunday"
+    ],
+    "active_hours": [
+      7,
+      8,
+      20,
+      21
+    ],
+    "max_idle_hours": 48,
+    "auto_activate": false,
+    "command": "echo 'Health check available: $(date)' >> {path}/activity.log"
+  },
+  "investment-agent": {
+    "active_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "active_hours": [
+      9,
+      10,
+      16,
+      17
+    ],
+    "max_idle_hours": 24,
+    "auto_activate": false,
+    "command": "echo 'Investment check: $(date)' >> {path}/activity.log"
+  },
+  "french-tutor-agent": {
+    "active_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday",
+      "saturday",
+      "sunday"
+    ],
+    "active_hours": [
+      7,
+      8,
+      12,
+      18,
+      19,
+      20
+    ],
+    "max_idle_hours": 22,
+    "auto_activate": true,
+    "command": "cd {path} && python3 fide_daily_lesson.py",
+    "priority_boost": true,
+    "goal": "FIDE A1 exam pass by 2026-05-29 (90 days)"
+  },
+  "travel-agent": {
+    "active_days": [],
+    "active_hours": [],
+    "max_idle_hours": 168,
+    "auto_activate": false,
+    "command": null
+  },
+  "fantasy-agent": {
+    "active_days": [
+      "saturday",
+      "sunday"
+    ],
+    "active_hours": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "max_idle_hours": 72,
+    "auto_activate": true,
+    "command": "echo 'Fantasy check: $(date)' >> {path}/activity.log"
+  },
+  "seriea-agent": {
+    "active_days": [
+      "friday",
+      "saturday",
+      "sunday"
+    ],
+    "active_hours": [
+      10,
+      11,
+      17,
+      18
+    ],
+    "max_idle_hours": 48,
+    "auto_activate": true,
+    "command": "echo 'Serie A check: $(date)' >> {path}/activity.log",
+    "priority_boost": true
+  }
+}

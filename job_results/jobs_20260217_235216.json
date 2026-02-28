@@ -1,0 +1,181 @@
+{
+  "scan_date": "2026-02-17T23:52:16.555014",
+  "scan_duration_seconds": 37,
+  "companies_scanned": 2,
+  "total_jobs_found": 19,
+  "high_scoring_jobs": 1,
+  "screenshots_taken": 1,
+  "jobs": [
+    {
+      "company": "Roche",
+      "title": "Why join us",
+      "location": "Our Locations",
+      "description": "Why join usInclusion & BelongingOur LocationsJob SearchTech4lifeOur BlogsEventsRoche.com",
+      "link": "https://careers.roche.com/global/en/why-join-us",
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Our Locations",
+      "location": "Our Locations",
+      "description": "Our Locations",
+      "link": "https://careers.roche.com/global/en/our-locations",
+      "score": 0,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Engineering",
+      "location": "Location not listed",
+      "description": "Engineering",
+      "link": "https://careers.roche.com/global/en/engineering",
+      "score": 0,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Unknown Title",
+      "location": "Location not listed",
+      "description": "Enter location or LanguageClear textDeutsch English (Global) SelectedSpanish (Spain) French (France) Portugu\u00eas (Brasil) \u7b80\u4f53\u4e2d\u6587",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Unknown Title",
+      "location": "Location not listed",
+      "description": "Enter location or LanguageClear text",
+      "link": null,
+      "score": 0,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Unknown Title",
+      "location": "Location not listed",
+      "description": "Enter location or LanguageClear text",
+      "link": null,
+      "score": 0,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "See More",
+      "location": "Location not listed",
+      "description": "Redefine healthcare. Join us.",
+      "link": "",
+      "score": 5,
+      "screenshot": "./job_screenshots/Roche_7_5.png"
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    },
+    {
+      "company": "Roche",
+      "title": "Job Categories",
+      "location": "Location not listed",
+      "description": "Search job title or location",
+      "link": null,
+      "score": 4,
+      "screenshot": null
+    }
+  ]
+}

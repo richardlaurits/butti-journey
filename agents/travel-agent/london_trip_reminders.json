@@ -1,0 +1,77 @@
+{
+  "trip": "London business trip - DETAILED SCHEDULE",
+  "dates": {
+    "wednesday": "2026-02-25",
+    "thursday": "2026-02-26", 
+    "friday": "2026-02-27"
+  },
+  "flights": {
+    "outbound": {
+      "flight": "EZY2536",
+      "route": "GVA → LTN",
+      "departure": "10:20",
+      "arrival": "11:05",
+      "date": "2026-02-25"
+    },
+    "return": {
+      "flight": "EZS8491",
+      "route": "LGW → GVA",
+      "departure": "20:05",
+      "arrival": "22:40",
+      "date": "2026-02-27"
+    }
+  },
+  "accommodation": {
+    "wed_thu_night": "Hampton by Hilton London City",
+    "address": "12-20 Osborn Street, London E1 6TE",
+    "tube": "Aldgate East"
+  },
+  "detailed_schedule": {
+    "wednesday": {
+      "08:20": "Uber till flygplatsen",
+      "10:20": "Flyg Luton",
+      "11:05": "Ankomst Luton",
+      "11:30": "Uber/taxi till CitizenM Shoreditch (direkt)",
+      "12:30": "MÖTE på CitizenM",
+      "16:00": "Promenera till Hampton by Hilton (check-in)",
+      "17:00": "Incheckat på hotellet"
+    },
+    "thursday": {
+      "08:00": "Från hotellet (Aldgate East)",
+      "09:00": "Till Gatwick-området",
+      "10:30": "MÖTE med kollega (nära Gatwick)",
+      "12:30": "LUNCH med kollega",
+      "14:00": "Tillbaka till London City",
+      "evening": "Kväll i London"
+    },
+    "friday": {
+      "09:00": "CitizenM Shoreditch (Summative Study)",
+      "16:00": "Study slutar",
+      "17:00": "Åk till Gatwick (tåg)",
+      "18:30": "Vid incheckning Gatwick",
+      "20:05": "FLYG HEM"
+    }
+  },
+  "reminders": {
+    "wednesday_uber": {
+      "time": "08:15",
+      "message": "🇬🇧 🚗 Dags för Uber!\n\n⏰ Beställ Uber nu till flygplatsen\n✈️ Flight: 10:20 till Luton\n🧳 Bag drop: 08:20-09:30\n\n📍 Efter ankomst Luton:\n→ Direkt till CitizenM Shoreditch (möte 12:30)\n\n🏨 Senare (16-17): Promenad till Hampton by Hilton\n   12-20 Osborn Street"
+    },
+    "wednesday_arrival": {
+      "time": "11:00",
+      "message": "🇬🇧 Snart framme!\n\n✈️ Landar Luton 11:05\n🚗 Uber direkt till CitizenM Shoreditch\n📍 Möte: 12:30\n\n💡 Efter mötet (~16:00):\n   Promenera till hotellet (~30 min)"
+    },
+    "thursday_morning": {
+      "time": "08:00",
+      "message": "🇬🇧 TORSDAG - Gatwick-dagen!\n\n⏰ Tidsschema:\n• 08:00: Lämna hotellet (Aldgate East)\n• 09:00: Till Gatwick-området\n• 10:30: MÖTE med kollega\n• 12:30: LUNCH med kollega\n• 14:00: Tillbaka till London\n\n🚆 Till Gatwick:\nAldgate East → Victoria → Gatwick Express"
+    },
+    "friday_study": {
+      "time": "08:30",
+      "message": "🇬🇧 FREDAG - Study day!\n\n📍 09:00-16:00: Summative Study\n   CitizenM Shoreditch\n\n✈️ KVÄLLS:\n• 16:00: Study slutar\n• 17:00: Åk till Gatwick (tåg)\n• 18:30: Vid incheckning\n• 20:05: Flyg hem!\n\n🚆 Tåg till Gatwick:\nOld Street → London Bridge → Thameslink"
+    },
+    "friday_departure": {
+      "time": "16:30",
+      "message": "🇬🇧 🚆 Dags att åka till Gatwick!\n\n⏰ Study slutar 16:00\n\n🚆 Din resa (föredrar tåg):\n1. Gå till Old Street tube (5 min)\n2. Northern Line till London Bridge (10 min)\n3. Thameslink till Gatwick (35-40 min)\n\n⏰ Total tid: ~55 minuter\n🎯 Vid Gatwick: ~17:30\n✈️ Flight: 20:05 (gott om tid!)\n🧳 Bag drop: 17:35-19:05"
+    }
+  }
+}

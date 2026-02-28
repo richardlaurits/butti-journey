@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-01T00:00:00Z",
+  "season": "2025/26",
+  "top_transfers_in_gw28": [
+    {"player_id": 373, "name": "Mohamed Salah", "team": "Liverpool", "transfers_in_event": 373000},
+    {"player_id": 430, "name": "Erling Haaland", "team": "Man City", "transfers_in_event": 249000},
+    {"player_id": 235, "name": "Bukayo Saka", "team": "Arsenal", "transfers_in_event": 249000},
+    {"player_id": 666, "name": "Alexander Isak", "team": "Liverpool", "transfers_in_event": 666000}
+  ],
+  "top_transfers_out_gw28": [
+    {"player_id": 430, "name": "Erling Haaland", "team": "Man City", "transfers_out_event": 0},
+    {"player_id": 449, "name": "Cole Palmer", "team": "Chelsea", "transfers_out_event": 0}
+  ],
+  "most_captained_gw28": {"player_id": 430, "name": "Erling Haaland", "team": "Man City"},
+  "most_vice_captained_gw28": {"player_id": 449, "name": "Cole Palmer", "team": "Chelsea"},
+  "most_transferred_in_overall": [
+    {"player_id": 249, "name": "Diogo Jota", "team": "Liverpool"},
+    {"player_id": 430, "name": "Erling Haaland", "team": "Man City"}
+  ],
+  "chips_played_gw28": {
+    "wildcard": 125813,
+    "freehit": 65809,
+    "bboost": 109631,
+    "3xc": 89274
+  },
+  "transfers_made_gw28": 8235195
+}

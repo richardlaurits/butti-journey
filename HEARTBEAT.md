@@ -1,0 +1,157 @@
+# HEARTBEAT.md - Automatiska Checks
+
+## Gmail Monitors (var 30:e minut)
+
+### 1. Important Mail Monitor (YOUR inbox)
+```bash
+cd ~/.openclaw/workspace && source venv/bin/activate && python3 skills/gmail/gmail_monitor_imap.py
+```
+
+### 2. Auto Responder (MY inbox)
+```bash
+cd ~/.openclaw/workspace && source venv/bin/activate && python3 skills/gmail/auto_responder.py
+```
+- Monitors: butti.nightrider@gmail.com
+- Auto-responds to: Confirmations, notifications, inquiries
+- Logs all responses to: `skills/gmail/auto_responder_log.json`
+
+**Output:**
+- Om viktiga mejl hittas → visar dem (meddelar mig)
+- Om inga viktiga mejl → returnerar `HEARTBEAT_OK` (tyst)
+
+**Filtrerar på:**
+- ⭐ Mejl från Pernilla Laurits (alltid viktiga)
+- 💰 Fakturor/betalningar (nyckelord: faktura, invoice, betalning, etc)
+- 🏦 Bankmeddelanden (Nordea, SEB, Handelsbanken, etc)
+- 📅 Kalenderhändelser och mötesinbjudningar
+- ❗ Gmail Important-märkta mejl
+
+**Ignorerar:**
+- Nyhetsbrev (LinkedIn, Forbes, etc)
+- Marknadsföring och reklam
+- Automatiska app-notiser
+
+**State tracking:**
+- Sparar senaste check i `skills/gmail/monitor_state.json`
+- Undviker dubbletter genom att komma ihåg sedda mejl-ID:n
+
+---
+
+## Daily Automation
+
+### FIDE French Lesson (Daily, 07:00 or 18:00)
+```bash
+cd ~/.openclaw/workspace && python3 agents/french-tutor-agent/fide_daily_lesson.py
+```
+- **Goal:** Pass FIDE A1 exam by May 29, 2026 (90-day program)
+- **Current:** Day 5 of 90, Foundation Phase
+- **Target:** 20 min/day → 600 words + oral competencies
+- **Status:** ✅ Auto-enabled, runs during morning/evening hours
+- **Progress:** `agents/french-tutor-agent/fide_progress.json`
+- **Dashboard:** `python3 agents/french-tutor-agent/fide_dashboard.py`
+
+---
+
+### Jan's Daily Greeting (10:00 CET)
+```bash
+cd ~/.openclaw/workspace && python3 skills/gmail/daily_greeting_jan.py
+```
+- Runs: Every day at 10:00 CET via system crontab
+- Sends: Friendly morning greeting to janlaurits@icloud.com
+- Log: `skills/gmail/jan_greeting_log.json`
+- Status: ✅ Live
+
+---
+
+## LinkedIn Job Monitor (var 30:e minut)
+
+### LinkedIn Job Recommendations
+```bash
+cd ~/.openclaw/workspace && source venv/bin/activate && python3 skills/gmail/linkedin_job_monitor.py
+```
+- Monitors: LinkedIn job recommendation emails in richardlaurits@gmail.com
+- Scores jobs 0-10 based on Richard's profile (marketing, medtech, CH/DK/SE)
+- Alerts on: Score 6+ (good matches)
+- Quiet hours: 22:00-07:00 (no alerts unless user is active)
+
+**Output:**
+- Om bra match (6+ poäng) → Telegram-alert med jobbinfo
+- Om inga matchande jobb → returnerar `HEARTBEAT_OK` (tyst)
+
+---
+
+## System Health Monitor (var 4:e timme)
+
+### Watchdog Agent - Autonomous Health Checks
+```bash
+cd ~/.openclaw/workspace && python3 agents/watchdog-agent/watchdog.py
+```
+- **Checks:** All agent health, cron job status, Node/NVM environment
+- **Status file:** `agents/watchdog-agent/status.json`
+- **Log:** `agents/watchdog-agent/watchdog.log`
+- **Actions:**
+  - ✅ All healthy → `HEARTBEAT_OK` (silent)
+  - ⚠️ Issues detected → Alert with severity + remediation suggestion
+- **Auto-remediation:** Enabled for low-risk fixes only
+- **Status:** ✅ Live (self-monitoring active)
+
+---
+
+## Rotation Tips
+
+Rotera mellan dessa checks (inte alla varje gång):
+
+1. **Gmail** (kör detta VARJE heartbeat - det är smart filtrerat)
+2. **LinkedIn Jobs** (kör VARJE heartbeat - tyst om inget hittas)
+3. **Kalender** (1-2 ggr/dag - morgon + eftermiddag)
+4. **Väder** (1 gång/dag - morgon)
+
+**Tidsram:**
+- Morgon: 07:00-09:00
+- Middag: 12:00-13:00
+- Kväll: 17:00-19:00
+- Natt: 22:00-07:00 (TYST - endast HEARTBEAT_OK om inget akut)
+
+---
+
+## Night Mode (23:00-06:00) 🌙
+
+**WHY:** You're sleeping. No need to burn API calls on non-urgent checks.
+
+**SCHEDULE:**
+- **23:00-06:00**: MINIMAL MODE
+  - ✅ Watchdog only (every 4h = 2 lightweight checks)
+  - ❌ Gmail monitors (skip - emails wait until morning)
+  - ❌ LinkedIn jobs (skip - jobs don't expire overnight)
+  - ❌ Auto-responder (skip - responds at 07:00 instead)
+- **06:00**: Resume full heartbeat
+
+**WHAT'S SKIPPED:**
+| Check | Normal | Night Mode | Reason |
+|-------|--------|------------|--------|
+| Gmail important mail | Every 30min | ❌ Skip | You can't act on emails while sleeping |
+| LinkedIn jobs | Every 30min | ❌ Skip | 7-hour delay is fine |
+| Auto-responder | Every 30min | ❌ Skip | Responds at 07:00 instead |
+| Watchdog health | Every 4h | ✅ Keep | Catches system failures |
+
+**SAVINGS:**
+- Skipped: ~14 checks/night × 30 nights = 420 API calls/month
+- Estimated cost reduction: ~$0.90/month
+- Risk: Near zero (true emergencies are rare)
+
+**EXCEPTION:**
+If you send a message during 23:00-06:00, normal heartbeat resumes (you're obviously awake).
+
+---
+
+## Cost Optimization Notes
+
+### Frequency by Time of Day
+- **Day (07:00-22:00)**: Full checks every 30 minutes
+- **Night (22:00-23:00 & 06:00-07:00)**: Essential checks only, 60-minute intervals
+- **Deep Night (23:00-06:00)**: MINIMAL MODE (watchdog only)
+- **Gmail**: Reduced to 60-min intervals overnight (less urgent)
+- **Watchdog**: Uses 30-min cache (effectively checks only on change)
+
+**Estimated savings: 35% during low-activity hours**
+

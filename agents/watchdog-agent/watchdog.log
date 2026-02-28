@@ -1,0 +1,12 @@
+[2026-02-28T22:49:14.068177] INFO: Starting watchdog check
+[2026-02-28T22:49:14.265339] INFO: Check complete: 1 healthy agents, 0 stale, 0 alerts
+[2026-02-28T22:50:17.395071] INFO: Starting watchdog check
+[2026-02-28T22:50:17.594556] INFO: Check complete: 1 healthy agents, 0 stale, 0 alerts
+[2026-02-28T22:56:03.101786] INFO: Starting watchdog check with Tier-1 recovery
+[2026-02-28T22:56:03.292192] CHECK: Check triggered: jan_greeting_stale
+[2026-02-28T22:56:03.292271] RECOVERY: Executing recovery action: retrigger_jan_greeting
+[2026-02-28T22:56:03.292281] RECOVERY: Executing Tier-1 recovery: retrigger_jan_greeting
+[2026-02-28T22:56:06.283523] RECOVERY: Recovery successful: retrigger_jan_greeting
+[2026-02-28T22:56:06.283771] INFO: Check complete: 1 healthy agents, 0 stale, 1 remediations, 0 escalations
+[2026-02-28T23:50:01.427027] INFO: Starting watchdog check with Tier-1 recovery
+[2026-02-28T23:50:01.631027] INFO: Check complete: 5 healthy agents, 0 stale, 0 remediations, 0 escalations

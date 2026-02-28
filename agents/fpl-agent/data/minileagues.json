@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-01T00:00:00Z",
+  "leagues": [
+    {
+      "league_id": 366,
+      "league_name": "youtube.com/hollyshand",
+      "type": "private",
+      "rank": 2093,
+      "last_rank": 1898,
+      "rank_change": -195,
+      "total_entries": 33090,
+      "top_10": [
+        {"rank": 1, "entry_name": "Calisac Warriors V.", "player": "Greg Clark", "total": 1765, "gw_pts": 38},
+        {"rank": 2, "entry_name": "SIKEREN", "player": "Sumanto Wijaya", "total": 1742, "gw_pts": 27},
+        {"rank": 3, "entry_name": "Ndiaye With A Smile", "player": "Alexander Lee", "total": 1741, "gw_pts": 15},
+        {"rank": 4, "entry_name": "Master of puppets", "player": "Trond Nordli", "total": 1740, "gw_pts": 24},
+        {"rank": 5, "entry_name": "HiBa", "player": "Krb Ultra", "total": 1738, "gw_pts": 39},
+        {"rank": 6, "entry_name": "Haalandof hope&glory", "player": "Martin Davidson", "total": 1734, "gw_pts": 25},
+        {"rank": 7, "entry_name": "fploracle.team", "player": "Zuruoke Okafor", "total": 1731, "gw_pts": 24},
+        {"rank": 8, "entry_name": "GG Eze", "player": "Kieron Laity", "total": 1730, "gw_pts": 50},
+        {"rank": 9, "entry_name": "HaCunhaMateta", "player": "Mr FA", "total": 1730, "gw_pts": 36},
+        {"rank": 10, "entry_name": "Vuttons Volaire", "player": "CFC Rabbit", "total": 1727, "gw_pts": 25}
+      ]
+    },
+    {
+      "league_id": 335,
+      "league_name": "Top 10% 24/25 League",
+      "type": "public",
+      "rank": 77272,
+      "last_rank": 70386,
+      "rank_change": -6886,
+      "total_entries": 1062950,
+      "top_10": [
+        {"rank": 1, "entry_name": "Hattrick FC", "player": "Viktor Olsson", "total": 1797, "gw_pts": 38},
+        {"rank": 2, "entry_name": "Crème de la crème", "player": "Ted Gondwe", "total": 1777, "gw_pts": 24},
+        {"rank": 3, "entry_name": "The A Team", "player": "Henry Huynh", "total": 1777, "gw_pts": 22},
+        {"rank": 4, "entry_name": "AC Moran", "player": "Duncan Moran", "total": 1773, "gw_pts": 26},
+        {"rank": 5, "entry_name": "Noche", "player": "Phisan Kaewlee", "total": 1770, "gw_pts": 40},
+        {"rank": 6, "entry_name": "Cue Ball FC", "player": "Barry Halpin", "total": 1769, "gw_pts": 38},
+        {"rank": 7, "entry_name": "The Real Quiz", "player": "Matt Boyce", "total": 1769, "gw_pts": 44},
+        {"rank": 8, "entry_name": "In the Kvistgaarden", "player": "Joe Dean", "total": 1768, "gw_pts": 17},
+        {"rank": 9, "entry_name": "Ney's team", "player": "Antar Belhadef", "total": 1768, "gw_pts": 37},
+        {"rank": 10, "entry_name": "PedroPorroPickledPep", "player": "Ian Stokes", "total": 1767, "gw_pts": 41}
+      ]
+    }
+  ]
+}

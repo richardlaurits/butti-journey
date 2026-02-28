@@ -1,0 +1,252 @@
+{
+  "timestamp": "2026-02-27T07:00:08.568427",
+  "holdings": [
+    {
+      "symbol": "NDA-SE.ST",
+      "name": "Nordea Bank",
+      "weight": 15.11,
+      "country": "SE",
+      "sector": "Bank",
+      "price": 177.5,
+      "currency": "SEK",
+      "change_pct": -0.39,
+      "success": true
+    },
+    {
+      "symbol": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "weight": 13.35,
+      "country": "SE",
+      "sector": "Bank",
+      "price": 145.55,
+      "currency": "SEK",
+      "change_pct": -0.17,
+      "success": true
+    },
+    {
+      "symbol": "SWED-A.ST",
+      "name": "Swedbank A",
+      "weight": 11.79,
+      "country": "SE",
+      "sector": "Bank",
+      "price": 350.0,
+      "currency": "SEK",
+      "change_pct": -0.48,
+      "success": true
+    },
+    {
+      "symbol": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "weight": 11.63,
+      "country": "SE",
+      "sector": "Telecom",
+      "price": 188.7,
+      "currency": "SEK",
+      "change_pct": -0.94,
+      "success": true
+    },
+    {
+      "symbol": "VOLV-B.ST",
+      "name": "Volvo B",
+      "weight": 4.73,
+      "country": "SE",
+      "sector": "Industrials",
+      "price": 350.4,
+      "currency": "SEK",
+      "change_pct": 0.17,
+      "success": true
+    },
+    {
+      "symbol": "ESSITY-B.ST",
+      "name": "Essity B",
+      "weight": 3.89,
+      "country": "SE",
+      "sector": "Consumer Staples",
+      "price": 286.3,
+      "currency": "SEK",
+      "change_pct": 0.14,
+      "success": true
+    },
+    {
+      "symbol": "SAND.ST",
+      "name": "Sandvik",
+      "weight": 3.88,
+      "country": "SE",
+      "sector": "Industrials",
+      "price": 398.0,
+      "currency": "SEK",
+      "change_pct": 0.1,
+      "success": true
+    },
+    {
+      "symbol": "INVE-B.ST",
+      "name": "Investor B",
+      "weight": 3.11,
+      "country": "SE",
+      "sector": "Investment",
+      "price": 374.9,
+      "currency": "SEK",
+      "change_pct": 0.66,
+      "success": true
+    },
+    {
+      "symbol": "ABB.ST",
+      "name": "ABB",
+      "weight": 2.76,
+      "country": "SE",
+      "sector": "Industrials",
+      "price": 831.0,
+      "currency": "SEK",
+      "change_pct": -0.53,
+      "success": true
+    },
+    {
+      "symbol": "EQNR.OL",
+      "name": "Equinor",
+      "weight": 7.11,
+      "country": "NO",
+      "sector": "Energy",
+      "price": 279.0,
+      "currency": "NOK",
+      "change_pct": -0.11,
+      "success": true
+    },
+    {
+      "symbol": "ORK.OL",
+      "name": "Orkla",
+      "weight": 6.25,
+      "country": "NO",
+      "sector": "Consumer Goods",
+      "price": 129.9,
+      "currency": "NOK",
+      "change_pct": -0.15,
+      "success": true
+    },
+    {
+      "symbol": "SAMPO.HE",
+      "name": "Sampo A",
+      "weight": 6.7,
+      "country": "FI",
+      "sector": "Insurance",
+      "price": 9.22,
+      "currency": "EUR",
+      "change_pct": -0.07,
+      "success": true
+    },
+    {
+      "symbol": "UPM.HE",
+      "name": "UPM-Kymmene",
+      "weight": 4.84,
+      "country": "FI",
+      "sector": "Materials",
+      "price": 27.07,
+      "currency": "EUR",
+      "change_pct": -0.15,
+      "success": true
+    },
+    {
+      "symbol": "NOVO-B.CO",
+      "name": "Novo Nordisk B",
+      "weight": 4.86,
+      "country": "DK",
+      "sector": "Pharma",
+      "price": 238.6,
+      "currency": "DKK",
+      "change_pct": 0.08,
+      "success": true
+    }
+  ],
+  "analysis": {
+    "winners": [
+      {
+        "symbol": "INVE-B.ST",
+        "name": "Investor B",
+        "weight": 3.11,
+        "country": "SE",
+        "sector": "Investment",
+        "price": 374.9,
+        "currency": "SEK",
+        "change_pct": 0.66,
+        "success": true
+      },
+      {
+        "symbol": "VOLV-B.ST",
+        "name": "Volvo B",
+        "weight": 4.73,
+        "country": "SE",
+        "sector": "Industrials",
+        "price": 350.4,
+        "currency": "SEK",
+        "change_pct": 0.17,
+        "success": true
+      },
+      {
+        "symbol": "ESSITY-B.ST",
+        "name": "Essity B",
+        "weight": 3.89,
+        "country": "SE",
+        "sector": "Consumer Staples",
+        "price": 286.3,
+        "currency": "SEK",
+        "change_pct": 0.14,
+        "success": true
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "TEL2-B.ST",
+        "name": "Tele2 B",
+        "weight": 11.63,
+        "country": "SE",
+        "sector": "Telecom",
+        "price": 188.7,
+        "currency": "SEK",
+        "change_pct": -0.94,
+        "success": true
+      },
+      {
+        "symbol": "ABB.ST",
+        "name": "ABB",
+        "weight": 2.76,
+        "country": "SE",
+        "sector": "Industrials",
+        "price": 831.0,
+        "currency": "SEK",
+        "change_pct": -0.53,
+        "success": true
+      },
+      {
+        "symbol": "SWED-A.ST",
+        "name": "Swedbank A",
+        "weight": 11.79,
+        "country": "SE",
+        "sector": "Bank",
+        "price": 350.0,
+        "currency": "SEK",
+        "change_pct": -0.48,
+        "success": true
+      }
+    ],
+    "portfolio_change": -0.25,
+    "by_country": {
+      "SE": {
+        "count": 9,
+        "avg_change": -0.16
+      },
+      "NO": {
+        "count": 2,
+        "avg_change": -0.13
+      },
+      "FI": {
+        "count": 2,
+        "avg_change": -0.11
+      },
+      "DK": {
+        "count": 1,
+        "avg_change": 0.08
+      }
+    },
+    "total_stocks": 14,
+    "timestamp": "2026-02-27T07:00:08.568170"
+  }
+}

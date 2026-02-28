@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-02-24T08:45:57.381131",
+  "yahoo_finance": [
+    {
+      "source": "Yahoo Finance",
+      "symbol": "NDA-SE.ST",
+      "name": "Nordea Bank",
+      "price": 178.85,
+      "change_pct": -0.14,
+      "currency": "SEK",
+      "success": true
+    },
+    {
+      "source": "Yahoo Finance",
+      "symbol": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "price": 143.65,
+      "change_pct": -0.03,
+      "currency": "SEK",
+      "success": true
+    },
+    {
+      "source": "Yahoo Finance",
+      "symbol": "SWED-A.ST",
+      "name": "Swedbank A",
+      "price": 349.0,
+      "change_pct": 0.09,
+      "currency": "SEK",
+      "success": true
+    },
+    {
+      "source": "Yahoo Finance",
+      "symbol": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "price": 191.3,
+      "change_pct": 0.31,
+      "currency": "SEK",
+      "success": true
+    },
+    {
+      "source": "Yahoo Finance",
+      "symbol": "VOLV-B.ST",
+      "name": "Volvo B",
+      "price": 350.1,
+      "change_pct": -0.28,
+      "currency": "SEK",
+      "success": true
+    }
+  ],
+  "nasdaq_nordic": [
+    {
+      "source": "Nasdaq Nordic",
+      "symbol": "NDA-SE.ST",
+      "name": "Nordea Bank",
+      "success": false,
+      "error": "HTTPSConnectionPool(host='www.nasdaq.com', port=443): Read timed out. (read timeout=10)"
+    },
+    {
+      "source": "Nasdaq Nordic",
+      "symbol": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "success": false,
+      "error": "HTTPSConnectionPool(host='www.nasdaq.com', port=443): Read timed out. (read timeout=10)"
+    }
+  ],
+  "nasdaq_csv": [
+    {
+      "source": "Nasdaq Nordic CSV",
+      "success": false,
+      "error": "HTTPSConnectionPool(host='www.nasdaq.com', port=443): Read timed out. (read timeout=15)"
+    }
+  ]
+}

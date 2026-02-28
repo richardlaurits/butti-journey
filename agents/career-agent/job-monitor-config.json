@@ -1,0 +1,130 @@
+{
+  "jobBoards": {
+    "monster": {
+      "enabled": true,
+      "url": "https://www.monster.com/jobs/search",
+      "hasAPI": true,
+      "countries": ["CH", "SE", "DK"],
+      "searchTerms": ["Marketing Manager", "Product Manager", "Business Development"]
+    },
+    "indeed": {
+      "enabled": true,
+      "url": "https://www.indeed.com",
+      "hasAPI": true,
+      "countries": ["CH", "SE", "DK"],
+      "searchTerms": ["Marketing Manager", "Product Manager"]
+    },
+    "linkedin": {
+      "enabled": true,
+      "method": "emailNotifications",
+      "note": "Parse incoming LinkedIn job alerts from Gmail"
+    },
+    "sweden": {
+      "enabled": true,
+      "boards": [
+        "arbetsformedlingen.se",
+        "placera.nu",
+        "blocket.se/jobb"
+      ]
+    },
+    "denmark": {
+      "enabled": true,
+      "boards": [
+        "findjob.dk",
+        "jobindex.dk"
+      ]
+    },
+    "switzerland": {
+      "enabled": true,
+      "boards": [
+        "jobs.ch",
+        "jobscout24.ch"
+      ]
+    }
+  },
+  "searchCriteria": {
+    "seniority": ["Associate Director", "Director", "Senior Director", "Senior Manager", "VP", "C-level", "Chief", "Head of", "Managing Director"],
+    "roleFunctions": [
+      "Business Development",
+      "Corporate Development",
+      "Strategic Partnerships",
+      "Strategic Alliances",
+      "Global Marketing",
+      "Marketing Director",
+      "EMEA Marketing",
+      "Upstream",
+      "Product Strategy",
+      "Product Management",
+      "Chief Commercial Officer",
+      "CCO",
+      "CEO",
+      "Growth",
+      "Commercial",
+      "Go-to-Market",
+      "GTM"
+    ],
+    "excludeKeywords": ["junior", "entry-level", "internship", "coordinator"],
+    "locations": {
+      "switzerland": ["Vaud", "Geneva", "Genève", "Valais", "Valais", "Switzerland"],
+      "denmark": ["Copenhagen", "København", "Hovedstaden"],
+      "sweden": ["Skåne", "Gothenburg", "Göteborg", "Stockholm", "Sweden"],
+      "remote": {
+        "ok": true,
+        "note": "OK but prefer established companies for remote work"
+      }
+    },
+    "salaryRanges": {
+      "sweden": {
+        "min": 80000,
+        "target": 120000,
+        "max": 150000,
+        "currency": "SEK"
+      },
+      "denmark": {
+        "min": 80000,
+        "target": 120000,
+        "max": 150000,
+        "currency": "DKK"
+      },
+      "switzerland": {
+        "min": 180000,
+        "target": 200000,
+        "max": 220000,
+        "currency": "CHF"
+      }
+    },
+    "jobTypes": ["Full-time", "Permanent"],
+    "industries": ["Medical Technology", "Medical Devices", "Medical AI", "MedTech", "Healthcare Technology", "LifeSciences", "Biotech"],
+    "companyTypes": ["Startup (any stage)", "Growth-stage", "Mid-cap", "Large cap", "Scale-up"],
+    "timeline": "2-6 months"
+  },
+  "matchingCriteria": {
+    "mustHave": ["director", "manager", "senior", "strategic", "business development", "product", "commercial", "cco", "ceo", "vp"],
+    "niceToHave": ["global", "international", "emea", "product strategy", "go-to-market", "partnerships", "scale-up", "innovation", "digital transformation"],
+    "scoreThreshold": 7,
+    "alert": true,
+    "alertChannel": "telegram",
+    "scoring": {
+      "has_target_role_function": 3,
+      "has_target_seniority": 2,
+      "has_target_industry": 2,
+      "location_match": 2,
+      "salary_in_range": 1,
+      "has_international_scope": 1,
+      "is_startup_or_scale_up": 0.5
+    },
+    "redFlags": {
+      "remote_eu_from_unknown_company": -2,
+      "salary_way_below_range": -1
+    },
+    "timing": "Alert if position available within 2-6 months"
+  },
+  "checkInterval": {
+    "monster": 3600,
+    "indeed": 3600,
+    "linkedin": 1800,
+    "swedish_boards": 7200,
+    "danish_boards": 7200,
+    "swiss_boards": 7200
+  }
+}

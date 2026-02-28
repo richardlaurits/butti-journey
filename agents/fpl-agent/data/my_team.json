@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-03-01T00:00:00Z",
+  "team_id": 17490,
+  "team_name": "FC MACCHIATO",
+  "player_name": "Richard Laurits",
+  "region": "Switzerland",
+  "overall": {
+    "total_points": 1607,
+    "overall_rank": 202437,
+    "percentile_rank": 5,
+    "team_value": 1036
+  },
+  "current_gameweek": {
+    "gameweek": 28,
+    "points": 23,
+    "gw_rank": 6223203,
+    "percentile": 50,
+    "transfers": 3,
+    "transfers_cost": 0,
+    "bank": 0.1,
+    "points_on_bench": 12
+  },
+  "previous_gameweek": {
+    "gameweek": 27,
+    "points": 39,
+    "gw_rank": 9322996,
+    "percentile": 75
+  },
+  "chips_used": [
+    {"name": "wildcard", "gameweek": 6, "date": "2025-09-21"},
+    {"name": "bboost", "gameweek": 9, "date": "2025-10-24"},
+    {"name": "3xc", "gameweek": 13, "date": "2025-11-28"},
+    {"name": "freehit", "gameweek": 19, "date": "2025-12-27"},
+    {"name": "wildcard", "gameweek": 21, "date": "2026-01-05"},
+    {"name": "bboost", "gameweek": 23, "date": "2026-01-24"},
+    {"name": "3xc", "gameweek": 26, "date": "2026-02-10"}
+  ],
+  "chips_available": {
+    "wildcard": 0,
+    "freehit": 1,
+    "bboost": 0,
+    "3xc": 0
+  }
+}

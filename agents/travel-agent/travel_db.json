@@ -1,0 +1,57 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "added": "2026-02-24T10:33:51.078180",
+      "booking_ref": "ABC123",
+      "flight_number": "SK1234",
+      "airline": "SAS Scandinavian Airlines",
+      "departure_date": "15 Mar 2026",
+      "route": "GVA",
+      "passenger": "Richard Laurits",
+      "parsed_date": "2026-03-15T00:00:00",
+      "checkin_reminder_sent": false,
+      "checkin_completed": false,
+      "checkin_opens": "2026-03-14T00:00:00"
+    },
+    {
+      "id": 2,
+      "added": "2026-02-24T10:39:25.137507",
+      "booking_ref": "EZY2536",
+      "flight_number": "EZY2536",
+      "airline": "easyJet",
+      "departure_date": "25 Feb 2026",
+      "departure_time": "10:20",
+      "arrival_time": "11:05",
+      "from": "Geneva (GVA) Terminal 1",
+      "to": "London Luton (LTN)",
+      "route": "GVA-LTN",
+      "parsed_date": "2026-02-25T10:20:00",
+      "checkin_opens": "2026-02-24T10:20:00",
+      "checkin_reminder_sent": false,
+      "checkin_completed": true,
+      "bag_drop": "08:20-09:30",
+      "status": "Checked-in"
+    },
+    {
+      "id": 3,
+      "added": "2026-02-24T10:40:08.332407",
+      "booking_ref": "EZS8491",
+      "flight_number": "EZS8491",
+      "airline": "easyJet",
+      "departure_date": "27 Feb 2026",
+      "departure_time": "20:05",
+      "arrival_time": "22:40",
+      "from": "London Gatwick (LGW) North Terminal",
+      "to": "Geneva (GVA) T1",
+      "route": "LGW-GVA",
+      "parsed_date": "2026-02-27T20:05:00",
+      "checkin_opens": "2026-02-26T20:05:00",
+      "checkin_reminder_sent": true,
+      "checkin_completed": true,
+      "bag_drop": "17:35-19:05",
+      "status": "Checked-in"
+    }
+  ],
+  "last_check": null
+}

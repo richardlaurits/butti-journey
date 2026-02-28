@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "VP Business Development - Medical Devices",
+    "company": "Roche",
+    "location": "Basel, Switzerland",
+    "salary": "CHF 200,000 - 220,000",
+    "posted": "2 days ago",
+    "days_old": 2,
+    "score": 11,
+    "description": "Strategic partnerships, business development, medical technology"
+  },
+  {
+    "id": 2,
+    "title": "Director Corporate Development",
+    "company": "Novo Nordisk",
+    "location": "Copenhagen, Denmark",
+    "salary": "DKK 120,000 - 150,000",
+    "posted": "5 days ago",
+    "days_old": 5,
+    "score": 11,
+    "description": "Medical devices, corporate development, healthcare innovation"
+  },
+  {
+    "id": 3,
+    "title": "Senior Director Product Strategy",
+    "company": "Hologic",
+    "location": "Genève, Switzerland",
+    "salary": "CHF 180,000 - 210,000",
+    "posted": "3 days ago",
+    "days_old": 3,
+    "score": 11,
+    "description": "Medical technology, product strategy, global markets"
+  },
+  {
+    "id": 4,
+    "title": "Director Go-to-Market Strategy",
+    "company": "Stryker",
+    "location": "Copenhagen, Denmark",
+    "salary": "DKK 100,000 - 140,000",
+    "posted": "7 days ago",
+    "days_old": 7,
+    "score": 11,
+    "description": "Commercial, GTM strategy, medical devices"
+  },
+  {
+    "id": 5,
+    "title": "VP Medical AI",
+    "company": "Philips Healthcare",
+    "location": "Stockholm, Sweden",
+    "salary": "SEK 100,000 - 130,000",
+    "posted": "4 days ago",
+    "days_old": 4,
+    "score": 11,
+    "description": "Artificial intelligence, medical devices, product management"
+  },
+  {
+    "id": 6,
+    "title": "Chief Commercial Officer",
+    "company": "Medtech Startup (Series B)",
+    "location": "Zurich, Switzerland",
+    "salary": "CHF 190,000 - 220,000 + equity",
+    "posted": "1 day ago",
+    "days_old": 1,
+    "score": 11,
+    "description": "Startup scale-up, commercial leadership, medical devices, go-to-market"
+  },
+  {
+    "id": 7,
+    "title": "Director Strategic Partnerships",
+    "company": "Zimmer Biomet",
+    "location": "Vaud, Switzerland",
+    "salary": "CHF 185,000 - 215,000",
+    "posted": "6 days ago",
+    "days_old": 6,
+    "score": 10,
+    "description": "Medical devices, strategic alliances, business development"
+  },
+  {
+    "id": 8,
+    "title": "Senior Manager EMEA Marketing",
+    "company": "Boston Scientific",
+    "location": "Geneva, Switzerland",
+    "salary": "CHF 160,000 - 190,000",
+    "posted": "10 days ago",
+    "days_old": 10,
+    "score": 11,
+    "description": "Global marketing, EMEA region, medical technology"
+  },
+  {
+    "id": 9,
+    "title": "VP Product Management - MedTech",
+    "company": "Getinge",
+    "location": "Gothenburg, Sweden",
+    "salary": "SEK 110,000 - 145,000",
+    "posted": "8 days ago",
+    "days_old": 8,
+    "score": 11,
+    "description": "Product strategy, healthcare, medical devices, leadership"
+  },
+  {
+    "id": 10,
+    "title": "Director Business Development",
+    "company": "Lundbeck",
+    "location": "Copenhagen Region, Denmark",
+    "salary": "DKK 110,000 - 145,000",
+    "posted": "12 days ago",
+    "days_old": 12,
+    "score": 9,
+    "description": "Business development, strategic partnerships, pharmaceutical"
+  }
+]

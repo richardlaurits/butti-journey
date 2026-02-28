@@ -1,0 +1,80 @@
+{
+  "last_updated": "2026-03-01T00:00:00+01:00",
+  "matchday": 24,
+  "injuries": [
+    {
+      "player": "Alphonso Davies",
+      "team": "Bayern Munich",
+      "injury": "Hamstring",
+      "status": "Out - 2-4 weeks",
+      "source": "bulinews.com",
+      "note": "Subbed off vs Frankfurt. Kompany: 'Will miss 2-4 weeks, not as bad as feared'"
+    },
+    {
+      "player": "Manuel Neuer",
+      "team": "Bayern Munich",
+      "injury": "Calf",
+      "status": "Doubtful",
+      "source": "bulinews.com",
+      "note": "Precautionary sub vs Bremen. Slight tightness, shouldn't be serious"
+    },
+    {
+      "player": "Felix Agu",
+      "team": "Werder Bremen",
+      "injury": "Adductor (muscular)",
+      "status": "Out",
+      "source": "bulinews.com",
+      "note": "New setback after just returning from syndesmosis injury"
+    },
+    {
+      "player": "Emre Can",
+      "team": "Borussia Dortmund",
+      "injury": "Groin/Adductor",
+      "status": "Out - until end of February",
+      "source": "betinf.com",
+      "note": "Renewed problems unrelated to previous injury"
+    },
+    {
+      "player": "Péter Gulácsi",
+      "team": "RB Leipzig",
+      "injury": "Knee",
+      "status": "Out",
+      "source": "bundesliga.com",
+      "note": "Vandevoordt deputising for third successive match"
+    },
+    {
+      "player": "Assan Ouédraogo",
+      "team": "RB Leipzig",
+      "injury": "Knee",
+      "status": "Out",
+      "source": "bundesliga.com",
+      "note": "Previously in fine form, now sidelined"
+    },
+    {
+      "player": "Xaver Schlager",
+      "team": "RB Leipzig",
+      "injury": "Groin",
+      "status": "Out",
+      "source": "bundesliga.com"
+    }
+  ],
+  "doubtful": [
+    {"player": "Maximilian Arnold", "team": "Wolfsburg", "issue": "Groin"},
+    {"player": "Patrick Wimmer", "team": "Wolfsburg", "issue": "Calf"},
+    {"player": "Jonas Wind", "team": "Wolfsburg", "issue": "Thigh"},
+    {"player": "Can Uzun", "team": "Eintracht Frankfurt", "issue": "Thigh"},
+    {"player": "Sambi Lokonga", "team": "Hamburg", "issue": "Ankle"}
+  ],
+  "suspended": [
+    {"player": "Hugo Beste", "team": "Freiburg"},
+    {"player": "Junior Manzambi", "team": "Freiburg"},
+    {"player": "Jusuf Ilić", "team": "Union Berlin"}
+  ],
+  "team_absences": {
+    "Wolfsburg": ["Cleiton (ankle)", "Dárdai (knee)", "Fischer (groin)", "Mæhle (shoulder)", "Paredes (muscular)", "Rogério (muscular)", "Seelt (knee)", "Wimmer (calf)"],
+    "Mainz": ["Amiri (heel)", "Bell (knee)", "Bos (shoulder)", "Caci (hamstring)", "Dal (knee)", "Hanche-Olsen (muscular)", "Hollerbach (Achilles)", "Kawasaki (muscular)", "Veratschnig (ill)", "Weiper (ill)", "Zentner (groin)"],
+    "Werder Bremen": ["Agu (groin)", "Boniface (knee)", "Coulibaly (thigh)", "Mbangula (thigh)", "Pieper (knee)", "Weiser (knee)", "Wöber (thigh)"],
+    "Cologne": ["Castro-Montes (muscular)", "Hübers (knee)", "Huseinbašić (hip)", "Kilian (knee)", "Maina (broken rib)", "Sebulonsen (muscular)", "Thielmann (muscular)"],
+    "Freiburg": ["Beste (suspended)", "Kübler (knee)", "Lienhart (abdominals)", "Manzambi (suspended)", "Rosenfelder (thigh)"]
+  }
+}

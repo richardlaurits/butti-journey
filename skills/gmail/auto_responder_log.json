@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-02-23T20:20:15.117619",
+    "from": "janlaurits@icloud.com",
+    "subject": "Multiple replies",
+    "response_type": "FAMILY",
+    "response": "Replies sent to Jan Laurits"
+  },
+  {
+    "timestamp": "2026-02-24T16:13:41.744573",
+    "from": "Richard Laurits <richardlaurits@gmail.com>",
+    "subject": "Fwd: Ordonnance",
+    "response_type": "INQUIRY",
+    "response": "Hi Richard Laurits,\n\nThanks for reaching out! I'll forward this to Richard and he'll get back to you soon.\n\nBest,\nButtiBot (Richard's assistant)"
+  }
+]

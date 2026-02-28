@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-02-28T23:08:53.300732",
+  "top_themes": [
+    "fantasy_entertainment",
+    "career_advancement",
+    "health_optimization"
+  ],
+  "agent_mapping": {
+    "career-agent": {
+      "themes": [
+        "career_advancement"
+      ],
+      "contribution_strength": 95,
+      "resource_cost": "high",
+      "autonomy_level": "Heal",
+      "strategic_alignment": 66.5,
+      "leverage_score": 22.2
+    },
+    "fpl-agent": {
+      "themes": [
+        "fantasy_entertainment"
+      ],
+      "contribution_strength": 90,
+      "resource_cost": "medium",
+      "autonomy_level": "Heal",
+      "strategic_alignment": 67.5,
+      "leverage_score": 33.8
+    },
+    "bundesliga-agent": {
+      "themes": [
+        "fantasy_entertainment"
+      ],
+      "contribution_strength": 70,
+      "resource_cost": "low",
+      "autonomy_level": "Heal",
+      "strategic_alignment": 52.5,
+      "leverage_score": 52.5
+    },
+    "seriea-agent": {
+      "themes": [
+        "fantasy_entertainment"
+      ],
+      "contribution_strength": 60,
+      "resource_cost": "low",
+      "autonomy_level": "Observe",
+      "strategic_alignment": 45.0,
+      "leverage_score": 45.0
+    },
+    "health-agent": {
+      "themes": [
+        "health_optimization"
+      ],
+      "contribution_strength": 85,
+      "resource_cost": "medium",
+      "autonomy_level": "Ask-First",
+      "strategic_alignment": 59.5,
+      "leverage_score": 29.8
+    },
+    "french-tutor-agent": {
+      "themes": [
+        "language_learning"
+      ],
+      "contribution_strength": 80,
+      "resource_cost": "low",
+      "autonomy_level": "Heal",
+      "strategic_alignment": 0.0,
+      "leverage_score": 0.0
+    },
+    "investment-agent": {
+      "themes": [
+        "investment_management"
+      ],
+      "contribution_strength": 75,
+      "resource_cost": "low",
+      "autonomy_level": "Observe",
+      "strategic_alignment": 0.0,
+      "leverage_score": 0.0
+    },
+    "travel-agent": {
+      "themes": [
+        "family_communication"
+      ],
+      "contribution_strength": 50,
+      "resource_cost": "low",
+      "autonomy_level": "Ask-First",
+      "strategic_alignment": 0.0,
+      "leverage_score": 0.0
+    },
+    "fantasy-agent": {
+      "themes": [
+        "fantasy_entertainment"
+      ],
+      "contribution_strength": 40,
+      "resource_cost": "low",
+      "autonomy_level": "Observe",
+      "strategic_alignment": 30.0,
+      "leverage_score": 30.0
+    },
+    "watchdog-agent": {
+      "themes": [
+        "career_advancement",
+        "health_optimization",
+        "fantasy_entertainment",
+        "family_communication"
+      ],
+      "contribution_strength": 100,
+      "resource_cost": "low",
+      "autonomy_level": "Heal",
+      "notes": "Enables all other agents",
+      "strategic_alignment": 53.8,
+      "leverage_score": 53.8
+    },
+    "ops-intelligence": {
+      "themes": [
+        "career_advancement",
+        "health_optimization",
+        "fantasy_entertainment",
+        "family_communication"
+      ],
+      "contribution_strength": 90,
+      "resource_cost": "low",
+      "autonomy_level": "Heal",
+      "notes": "Optimizes system efficiency",
+      "strategic_alignment": 48.4,
+      "leverage_score": 48.4
+    }
+  },
+  "insights": {
+    "under_leveraged": [
+      "french-tutor-agent",
+      "investment-agent"
+    ],
+    "over_allocated": [],
+    "high_leverage": [
+      {
+        "agent": "watchdog-agent",
+        "score": 53.8
+      },
+      {
+        "agent": "bundesliga-agent",
+        "score": 52.5
+      },
+      {
+        "agent": "ops-intelligence",
+        "score": 48.4
+      }
+    ]
+  }
+}
