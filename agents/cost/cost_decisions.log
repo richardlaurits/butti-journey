@@ -1,4 +1,0 @@
-{"timestamp": "2026-02-28T23:39:00.423371", "optimization": "watchdog_caching", "success": true, "estimated_savings_pct": 50}
-{"timestamp": "2026-02-28T23:39:00.423429", "optimization": "heartbeat_frequency", "success": true, "estimated_savings_pct": 30}
-{"timestamp": "2026-02-28T23:39:00.423450", "optimization": "scheduler_deduplication", "success": true, "estimated_savings_pct": 20}
-{"timestamp": "2026-02-28T23:43:57+01:00", "optimization": "night_mode_23-06", "description": "Minimal heartbeat 23:00-06:00 - watchdog only, skip Gmail/LinkedIn/auto-responder", "estimated_savings_pct": 12, "estimated_savings_usd_monthly": 0.90, "implementation": "HEARTBEAT.md documentation", "active_hours": "23:00-06:00", "skipped_checks": ["gmail_monitor", "linkedin_jobs", "auto_responder"], "kept_checks": ["watchdog"]}
