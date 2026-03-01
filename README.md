@@ -1,84 +1,89 @@
 # ButtiBot Journey 🚀
 
-*The evolution of an AI assistant - from first boot to full autonomy*
+*The evolution of a personalized AI assistant architecture*
 
-**Author:** Richard Laurits  
-**Timeline:** February 7 - March 1, 2026  
+**Timeline:** February - March 2026  
 **Platform:** OpenClaw on Linux VM
 
 ---
 
-## 📖 The Story
+## 📖 Overview
 
-This repository documents the journey of creating **ButtiBot** - a personalized AI assistant built using OpenClaw. What started as a simple experiment evolved into a sophisticated multi-agent system handling everything from daily briefings to fantasy football analysis and job searching.
+This repository documents the technical journey of building a multi-agent AI assistant using OpenClaw. It focuses on the architecture, lessons learned, and design patterns — not the specific applications built on top of it.
 
-### The Name
-**ButtiBot** - Named during the first conversation on February 7, 2026. A playful, memorable name that stuck.
+The actual implementations (specific agents, configurations, and personal data) live in private repositories.
 
 ---
 
 ## 🎯 Key Milestones
 
-### Phase 1: Foundation (Feb 7-14)
-- **Feb 7:** First boot and identity establishment
-- **Feb 8:** Telegram integration established
-- **Feb 10:** Fantasy Football agents created (FPL, Bundesliga, Serie A)
-- **Feb 14:** Health agent created for diabetes management tracking
+### Phase 1: Foundation
+- Core identity and behavioral principles established
+- Communication channels configured (Telegram)
+- Workspace architecture designed
 
-### Phase 2: Expansion (Feb 15-23)
-- **Feb 17:** Career agent development begins
-- **Feb 18:** Gmail dual-account setup (bot + personal)
-- **Feb 19:** French tutor agent for FIDE A1 exam preparation
-- **Feb 23:** Daily automation established (morning briefs, Jan's greetings)
+### Phase 2: Multi-Agent System
+- Coordinator + sub-agent pattern implemented
+- Specialized agents for different domains
+- Inter-agent communication protocols
 
-### Phase 3: Refinement (Feb 24-28)
-- **Feb 24:** Cron job cleanup - reduced from 15 to 6 essential jobs
-- **Feb 27:** Enhanced Career Agent with interactive job emails
-- **Feb 28:** Fantasy football simplified (FPL only on Fridays)
+### Phase 3: Automation & Refinement
+- Cron-based scheduling implemented
+- Notification fatigue addressed through ruthless prioritization
+- Public/private repository separation
 
 ---
 
 ## 🤖 Agent Architecture
 
 ```
-ButtiBot (Main/Coordinator)
+Coordinator (Main Session)
 │
-├── 📧 Career Agent
-│   └── Daily job emails with interactive buttons
+├── Specialized Sub-Agents
+│   ├── Career Agent (job search automation)
+│   ├── Learning Agent (language acquisition)
+│   ├── Sports Agent (fantasy analysis)
+│   ├── Health Agent (metrics tracking)
+│   └── Investment Agent (portfolio monitoring)
 │
-├── ⚽ Fantasy Football
-│   └── FPL analysis (Fridays only)
-│
-├── 🇫🇷 French Tutor
-│   └── Daily lessons + weekly quizzes
-│
-├── 📊 Investment Agent
-│   └── Portfolio monitoring (on demand)
-│
-└── ✈️ Travel Agent
-    └── Trip planning & reminders
+└── Automation Layer
+    ├── Cron scheduler
+    ├── Heartbeat monitoring
+    └── Event triggers
 ```
+
+### Design Principles
+
+1. **Single Coordinator** — Main session handles orchestration
+2. **Specialized Sub-Agents** — Domain experts for specific tasks
+3. **Fire-and-Forget** — Sub-agents report completion, don't stay resident
+4. **Public/Private Separation** — Architecture public, implementation private
 
 ---
 
 ## 🔑 Key Learnings
 
 ### What Worked Well
-1. **Email-based interfaces** - Interactive buttons in emails for job applications
-2. **Strict scheduling** - Focusing FPL to Fridays only reduced noise
-3. **Hybrid approaches** - Combining API data with web scraping for best results
-4. **Private/Public separation** - Keeping personal data in private repos
+
+1. **Email-based interfaces** — Interactive buttons via mailto links
+2. **Strict scheduling** — Consolidating jobs reduced noise significantly
+3. **Hybrid data approaches** — APIs + parsing for best coverage
+4. **Repository separation** — Clean boundary between public and private
 
 ### What Didn't Work
-1. **Over-automation** - Too many cron jobs created notification fatigue
-2. **Complex scrapers** - Career site scrapers often broke due to JS requirements
-3. **Daily fantasy updates** - Too frequent, reduced to weekly
+
+1. **Over-automation** — Too many cron jobs created notification fatigue
+2. **Complex scrapers** — JavaScript-heavy sites broke headless approaches
+3. **OAuth for email** — Tokens expired; app passwords proved more reliable
 
 ### Technical Insights
-- **LinkedIn job alerts** → Most reliable job source (via email parsing)
-- **FPL API** → Excellent for structured data
-- **Brave Search API** → Good for quick web searches, not for deep scraping
-- **Gmail IMAP** → More reliable than OAuth for long-term access
+
+| Approach | Result |
+|----------|--------|
+| Email parsing | Highly reliable for structured data |
+| REST APIs | Excellent when available |
+| Web scraping | Fragile, use as fallback only |
+| IMAP + App Passwords | More stable than OAuth for long-term |
 
 ---
 
@@ -86,71 +91,76 @@ ButtiBot (Main/Coordinator)
 
 - **Platform:** OpenClaw (Linux VM)
 - **Language:** Python 3.13
-- **APIs:** FPL API, Yahoo Finance, Brave Search, Telegram Bot API
-- **Tools:** Playwright (scraping), GitHub CLI, Gmail IMAP
-- **Automation:** Cron, at
-- **Security:** Tailscale VPN, app passwords (no OAuth)
+- **APIs:** REST APIs, Telegram Bot API, various data sources
+- **Tools:** Playwright (when scraping needed), GitHub CLI
+- **Automation:** Cron, `at` for delayed tasks
+- **Security:** Tailscale VPN, app passwords
 
 ---
 
-## 📊 System Stats
+## 📊 System Evolution
 
-- **Agents:** 8 specialized sub-agents
-- **Cron Jobs:** 6 (down from 15)
-- **Daily Emails:** 2-3 (job alerts, morning brief)
-- **Code Commits:** 50+ over 3 weeks
-- **Fantasy Leagues:** 3 (FPL, Bundesliga, Serie A)
+| Metric | Initial | Current |
+|--------|---------|---------|
+| Cron jobs | 15+ | 6 |
+| Sub-agents | 3 | 8 |
+| Daily interruptions | 10+ | 2-3 |
+| Repos | 1 | 7 (1 public, 6 private) |
 
 ---
 
 ## 🎯 Current Capabilities
 
 ### Daily Automation
-- ☀️ Morning brief (AI news, markets, weather, emails)
-- 💼 Job opportunities (top 10 with interactive buttons)
-- 🇫🇷 French lesson (Telegram)
+- Morning brief (curated information digest)
+- Daily learning session
+- Priority monitoring (emails, calendar)
 
 ### Weekly
-- ⚽ FPL Fantasy analysis (Fridays)
-- 📊 Applied jobs summary (Sundays)
-- 📝 French quiz (Sundays)
+- Domain-specific analysis (on schedule)
+- Applied tasks summary
+- Learning assessment
 
 ### On Request
-- 🔍 Bundesliga analysis
-- 🔍 Serie A analysis  
-- 💰 Investment portfolio check
-- ✈️ Travel planning
+- Deep-dive analysis
+- Trip planning
+- Ad-hoc research
 
 ---
 
-## 🔒 Privacy & Security
+## 🔒 Privacy & Security Model
 
-All personal data, API keys, passwords, and detailed configurations are stored in a separate **private repository**. This public repo contains only:
+**Public Repository (this repo):**
 - High-level architecture
-- Learning insights
-- Anonymized examples
-- System design patterns
+- Design patterns and lessons
+- Generic workflow examples
+- System evolution narrative
+
+**Private Repositories:**
+- Agent implementations
+- API keys and credentials
+- Personal data and configurations
+- Specific use-case details
 
 ---
 
 ## 🚀 Future Directions
 
-1. **Health Integration** - Connect Dexcom G7 and Apple Health data
-2. **WhatsApp Integration** - Family communication channel
-3. **Smart Home** - Voice control and automation
-4. **Document Analysis** - Automated reading and summarization
+1. **Health Integration** — Connecting wearables and medical devices
+2. **Family Communication** — Additional channels beyond Telegram
+3. **Smart Home** — Voice control and automation
+4. **Document Intelligence** — Automated analysis and summarization
 
 ---
 
 ## 🙏 Credits
 
-- **OpenClaw** - The platform that made this possible
-- **Richard Laurits** - Patient human guide and system architect
-- **ButtiBot** - The AI assistant learning and growing every day
+- **OpenClaw** — The platform enabling this architecture
+- **Open-source community** — Skills, patterns, and inspiration
 
 ---
 
-*"Be genuinely helpful, not performatively helpful."* - ButtiBot's core principle
+*"Be genuinely helpful, not performatively helpful."* — Core principle
 
-**Started:** February 7, 2026  
-**Last Updated:** March 1, 2026
+**Started:** February 2026  
+**Last Updated:** March 2026
