@@ -3,6 +3,7 @@
 *The evolution of an AI assistant - from first boot to full autonomy*
 
 **Author:** Richard Laurits  
+**Birth of ButtiBot:** February 7, 2026  
 **Timeline:** February 7 - March 1, 2026  
 **Platform:** OpenClaw on Linux VM
 
@@ -12,8 +13,8 @@
 
 This repository documents the journey of creating **ButtiBot** - a personalized AI assistant built using OpenClaw. What started as a simple experiment evolved into a sophisticated multi-agent system handling everything from daily briefings to fantasy football analysis and job searching.
 
-### The Name
-**ButtiBot** - Named during the first conversation on February 7, 2026. A playful, memorable name that stuck.
+### The Name & Birth
+**ButtiBot** - Born on February 7, 2026, during the first conversation. A playful, memorable name that stuck immediately.
 
 ---
 
@@ -152,5 +153,5 @@ All personal data, API keys, passwords, and detailed configurations are stored i
 
 *"Be genuinely helpful, not performatively helpful."* - ButtiBot's core principle
 
-**Started:** February 7, 2026  
+**Born:** February 7, 2026  
 **Last Updated:** March 1, 2026
